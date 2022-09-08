@@ -32,11 +32,11 @@
     <div class="text-header font glow">Contact</div>
     <div class="main-text main-text-alignment font glow">
         <p>Questions? Go ahead.</p>
-        <form action="/action_page.php" target="_blank">
+        <form action="../scripts/contact.php" target="_blank" method="post">
           <p><input class="input box-glow" type="text" placeholder="Name" name="Name" required></p>
           <p><input class="input box-glow" type="text" placeholder="Email" name="Email" required></p>
           <p><input class="input box-glow" type="text" placeholder="Subject" name="Subject" required></p>
-          <p><input class="input box-glow" type="text" placeholder="Message" name="Message" required></p>
+          <p><textarea class="input box-glow" type="text" placeholder="Message" name="Message" rows="6" style="resize:none" required></textarea></p>
           <button type="submit" class="button box-glow send-block">Send</button>
         </form></div>
   </div>
