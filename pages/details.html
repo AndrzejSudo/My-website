@@ -10,7 +10,7 @@
 
 <div class="navbar">
   <div class="bar-text glow-frame glow">
-    <a href="../index.html" class="button"><img src="https://i.imgur.com/TTizpUT.png", class="icon"><span style="margin-left:15px">Andrzej website</span></a>
+    <a href="../index.html" class="button"><img src="../images/logo.png", class="icon"><span style="margin-left:15px">Andrzej website</span></a>
     <div class="right-buttons">
         <a href="projects.html" class="button">Projects</a>
         <a href="findme.html" class="button">Find me</a>
@@ -26,18 +26,21 @@
   </div>
 </div>
 
-<div class="main-padding" style="max-width:900px">
+<div class="main-padding" style="max-width:825px">
 
   <div class="container">
-    <div class="text-header font glow">About me</div>
-    <div class="middle">
-    <div class="black">
-    <div class="main-text main-text-alignment font glow"><article>This website is hosted on Nginx running on Raspberry Pi W2. </article>
-          </div>
-        </div>
-    </div>
+    <div class="text-header font glow">Website details</div>
+    <div class="main-text main-text-alignment font glow">
+    <div class="flex">
+    <article class="black">
+    <img src="https://i.imgur.com/Wkgo3OJ.jpg", class="rpiz">
+        <article>This site is hosted on Nginx running on Raspberry Pi Zero W 2 (left). RpiZ2 is quite powerful embedded system and combined with Nginx efficiency is enough for simple web app hosting. However to host this site from home I had to find way to not break contract with my ISP and use DDNS. This might cause additional latency and extra bandwith overhead. However this website serves mostly as PoC and will be put offline in near future.<img src="https://i.imgur.com/ztyXGlq.jpg", class="rpi3">
+          <div style="text-indent:40px">First instance was running on Raspberry Pi 3 (right) and Apache. However I found that Nginx is better tailored for single board CPUs. Also since Ngingx consumes less resources I could scale down by replacing RPi3 with RPi Zero.</article>
+     </div>
+      </div>
+    </div> 
   </div>
 </div>
-
+  
 </body>
 </html>

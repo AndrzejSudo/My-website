@@ -1,5 +1,5 @@
 html, body, font{margin:0;font-family:"Segoe UI", Arial, sans-serif;font-size:15px;line-height:1.5;color:rgba(0, 255, 246, 1);letter-spacing:3px;}
-body{background-image:url("https://i.imgur.com/Glzg2qY.jpeg");background-repeat:no-repeat;background-color:black;background-size:cover;background-position:center bottom 45px;background-attachment:fixed;}
+body{background-image: url(../images/background.jpeg);background-repeat:no-repeat;background-color:black;background-size:cover;background-position:center bottom 45px;background-attachment:fixed;}
 .icon{width:22px;position:absolute;margin-left:-20px}
 .bar-text{letter-spacing:3px;padding:0px 20px;color:rgba(0, 255, 246, 1);}
 .glow-frame{box-shadow:0px 1px 1px 0px rgba(0, 255, 246, 1),0 2px 15px 1px rgba(0, 216, 255, 1)}
