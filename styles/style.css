@@ -19,11 +19,23 @@ body{background-image:url(../images/background.jpeg);background-repeat:no-repeat
   .bar-text, .right-buttons{font-size: 14px;}
   .navbar, .right-buttons{text-align:center !important;width:100%}
   .container{margin-top:50px;}
-  .main-text-alignment{padding-top:250px}
+  .main-text-alignment{transform:translate(-50%,-55%)}
 }
 @media screen and (max-width: 700px){
   .bar-text, .right-buttons{font-size: 12px;}
   .navbar, .right-buttons{text-align:center !important;width:100%}
   .container{margin-top:10px;}
-  .main-text-alignment{padding-top:300px}
+  .main-text-alignment{transform:translate(-50%,-75%)}
+}
+@media screen and (max-width: 600px){
+  .bar-text, .right-buttons{font-size: 12px;}
+  .navbar, .right-buttons{text-align:center !important;width:100%}
+  .container{margin-top:10px;}
+  .main-text-alignment{transform:translate(-50%,-65%)}
+}
+@media screen and (max-width: 500px){
+  .bar-text, .right-buttons{font-size: 12px;}
+  .navbar, .right-buttons{text-align:center !important;width:100%}
+  .container{margin-top:10px;}
+  .main-text-alignment{transform:translate(-50%,-55%)}
 }
